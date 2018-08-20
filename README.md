@@ -53,6 +53,9 @@ npm install json-server -g
     },{
       "name":"lisi",
       "sex":"woman"
+    },{
+       "name":"wangwu",
+       "sex":"woman"
     }
   ]
 }
