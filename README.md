@@ -42,6 +42,21 @@ npm install iview --save
 
 ## 开发说明-模拟服务介绍
 ``` bash
+# install json-server
+npm install json-server -g
+# 在/server/db.json文件中写入以下数据,如：
+{
+  “api_get_userlist”:[
+    {
+      "name":"zhangsan",
+      "sex":"man"
+    },{
+      "name":"lisi",
+      "sex":"woman"
+    }
+  ]
+}
+# 最后在/server目录执行json-server db.json -w -p 13000
 
 ```
 
