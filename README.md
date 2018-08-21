@@ -38,6 +38,7 @@ npm install -g vuex
 # install vivew （是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品）
 npm install iview --save 
 
+# 调整less版本为2.7.2
 ```
 
 ## 开发说明-模拟服务介绍
