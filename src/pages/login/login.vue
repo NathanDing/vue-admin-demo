@@ -6,7 +6,7 @@
     <div class="login-con">
       <Card icon="log-in" title="欢迎登录" :bordered="false">
         <div class="form-con">
-          <login-form @on-success-valid="handleSubmit"></login-form>
+          <LoginForm @on-success-valid="handleSubmit"></LoginForm>
           <p class="login-tip">作者：百兆</p>
           <p class="login-tip">输入用户名和密码即可(super_admin/123456)</p>
         </div>
@@ -32,7 +32,7 @@ export default {
       this.handleLogin({ userName, password }).then(res => {
         this.getUserInfo().then(res => {
           this.$router.push({
-            name: 'home'
+            name: 'main'
           })
         })
       })

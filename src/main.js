@@ -5,8 +5,9 @@ import App from './App'
 import iView from 'iview'
 import locale from 'iview/dist/locale/zh-CN'
 import router from './router'
+import store from './store'
 import 'iview/dist/styles/iview.css'
-// import './index.less'
+import './index.less'
 
 Vue.config.productionTip = false
 
@@ -16,6 +17,7 @@ Vue.use(iView, {locale})
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
