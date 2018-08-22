@@ -14,7 +14,7 @@ const router = new Router({
 })
 
 // 声明登录页面
-const LOGIN_PAGE_NAME = 'login'
+const LOGIN_PAGE_NAME = 'main'
 
 // vue-router的全局钩子beforeEach，打开加载进度条
 router.beforeEach((to, from, next) => {
